@@ -1,2 +1,6 @@
 ngogiangthanh1 has written there.
+<<<<<<< HEAD
 ngogiangthanh1 has used this old file in clone folder.
+=======
+ngogiangthanh has written there and commit to github. (new)
+>>>>>>> origin/master
