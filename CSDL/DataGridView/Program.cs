@@ -13,7 +13,7 @@ namespace DataGridView
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmXoa());
+            Application.Run(new frmExcel());
         }
     }
 }
