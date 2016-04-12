@@ -1,0 +1,9 @@
+C:\Users\thanh\Desktop\CSDL\CSDL\bin\Debug\CSDL.exe.config
+C:\Users\thanh\Desktop\CSDL\CSDL\bin\Debug\CSDL.exe
+C:\Users\thanh\Desktop\CSDL\CSDL\bin\Debug\CSDL.pdb
+C:\Users\thanh\Desktop\CSDL\CSDL\obj\Debug\CSDL.csprojResolveAssemblyReference.cache
+C:\Users\thanh\Desktop\CSDL\CSDL\obj\Debug\CSDL.Properties.Resources.resources
+C:\Users\thanh\Desktop\CSDL\CSDL\obj\Debug\CSDL.csproj.GenerateResource.Cache
+C:\Users\thanh\Desktop\CSDL\CSDL\obj\Debug\CSDL.exe
+C:\Users\thanh\Desktop\CSDL\CSDL\obj\Debug\CSDL.pdb
+C:\Users\thanh\Desktop\CSDL\CSDL\obj\Debug\CSDL.frmMain.resources

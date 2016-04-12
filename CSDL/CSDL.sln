@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSDL", "CSDL\CSDL.csproj", "{56509E84-5453-4C34-ABC6-AC9C631D1118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView", "DataGridView\DataGridView.csproj", "{001A3D49-424A-4FA4-A139-9B12B00A9168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56509E84-5453-4C34-ABC6-AC9C631D1118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56509E84-5453-4C34-ABC6-AC9C631D1118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56509E84-5453-4C34-ABC6-AC9C631D1118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56509E84-5453-4C34-ABC6-AC9C631D1118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001A3D49-424A-4FA4-A139-9B12B00A9168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001A3D49-424A-4FA4-A139-9B12B00A9168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001A3D49-424A-4FA4-A139-9B12B00A9168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001A3D49-424A-4FA4-A139-9B12B00A9168}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
