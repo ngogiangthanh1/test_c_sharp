@@ -16,3 +16,8 @@ C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Debug\CSDL.csprojResolveAssemb
 C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Debug\CSDL.frmMain.resources
 C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Debug\CSDL.Properties.Resources.resources
 C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Debug\CSDL.csproj.GenerateResource.Cache
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\bin\Debug\CSDL.exe.manifest
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\bin\Debug\CSDL.application
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Debug\CSDL.TrustInfo.xml
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Debug\CSDL.exe.manifest
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Debug\CSDL.application

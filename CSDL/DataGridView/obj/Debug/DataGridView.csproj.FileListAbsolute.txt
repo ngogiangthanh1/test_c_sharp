@@ -23,3 +23,7 @@ C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Debug\DataGridView.frm
 C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Debug\DataGridView.Properties.Resources.resources
 C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Debug\DataGridView.csproj.GenerateResource.Cache
 C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Debug\DataGridView.frmExcel.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\bin\Debug\DataGridView.exe.manifest
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\bin\Debug\DataGridView.application
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Debug\DataGridView.exe.manifest
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Debug\DataGridView.application
