@@ -58,7 +58,7 @@
             this.dgvDemo.ReadOnly = true;
             this.dgvDemo.RowTemplate.Height = 28;
             this.dgvDemo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDemo.Size = new System.Drawing.Size(446, 244);
+            this.dgvDemo.Size = new System.Drawing.Size(698, 304);
             this.dgvDemo.TabIndex = 1;
             // 
             // colSTT
@@ -95,12 +95,12 @@
             this.ctmstrXoa.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiXoa});
             this.ctmstrXoa.Name = "ctmstrXoa";
-            this.ctmstrXoa.Size = new System.Drawing.Size(129, 34);
+            this.ctmstrXoa.Size = new System.Drawing.Size(116, 34);
             // 
             // tsmiXoa
             // 
             this.tsmiXoa.Name = "tsmiXoa";
-            this.tsmiXoa.Size = new System.Drawing.Size(211, 30);
+            this.tsmiXoa.Size = new System.Drawing.Size(115, 30);
             this.tsmiXoa.Text = "Xóa";
             this.tsmiXoa.Click += new System.EventHandler(this.tsmiXoa_Click);
             // 
@@ -108,9 +108,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(446, 244);
+            this.ClientSize = new System.Drawing.Size(698, 304);
             this.Controls.Add(this.dgvDemo);
+            this.MaximumSize = new System.Drawing.Size(720, 360);
+            this.MinimumSize = new System.Drawing.Size(720, 360);
             this.Name = "frmXoa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Xóa trên DatagridView";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmXoa_FormClosing);
             this.Load += new System.EventHandler(this.frmXoa_Load);

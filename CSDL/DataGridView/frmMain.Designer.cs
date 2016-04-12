@@ -48,10 +48,12 @@
             this.colChucVu});
             this.dgvDemo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDemo.Location = new System.Drawing.Point(0, 0);
+            this.dgvDemo.MultiSelect = false;
             this.dgvDemo.Name = "dgvDemo";
             this.dgvDemo.ReadOnly = true;
             this.dgvDemo.RowTemplate.Height = 28;
-            this.dgvDemo.Size = new System.Drawing.Size(460, 366);
+            this.dgvDemo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvDemo.Size = new System.Drawing.Size(698, 304);
             this.dgvDemo.TabIndex = 0;
             // 
             // colSTT
@@ -86,9 +88,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 366);
+            this.ClientSize = new System.Drawing.Size(698, 304);
             this.Controls.Add(this.dgvDemo);
+            this.MaximumSize = new System.Drawing.Size(720, 360);
+            this.MinimumSize = new System.Drawing.Size(720, 360);
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Demo DataGridview";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);

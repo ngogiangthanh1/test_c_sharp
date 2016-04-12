@@ -35,7 +35,7 @@
             // 
             // btnCheck
             // 
-            this.btnCheck.Location = new System.Drawing.Point(25, 124);
+            this.btnCheck.Location = new System.Drawing.Point(12, 12);
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.Size = new System.Drawing.Size(113, 47);
             this.btnCheck.TabIndex = 0;
@@ -46,9 +46,9 @@
             // btnClose
             // 
             this.btnClose.Enabled = false;
-            this.btnClose.Location = new System.Drawing.Point(144, 124);
+            this.btnClose.Location = new System.Drawing.Point(230, 12);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(113, 47);
+            this.btnClose.Size = new System.Drawing.Size(135, 47);
             this.btnClose.TabIndex = 1;
             this.btnClose.Text = "Đóng kết nối";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(85, 71);
+            this.btnConnect.Location = new System.Drawing.Point(133, 12);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(113, 47);
+            this.btnConnect.Size = new System.Drawing.Size(91, 47);
             this.btnConnect.TabIndex = 2;
             this.btnConnect.Text = "Kết nối";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -68,11 +68,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 244);
+            this.ClientSize = new System.Drawing.Size(368, 74);
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnCheck);
+            this.MaximumSize = new System.Drawing.Size(390, 130);
+            this.MinimumSize = new System.Drawing.Size(390, 130);
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kết nối CSDL";
             this.ResumeLayout(false);
 

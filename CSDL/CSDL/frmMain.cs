@@ -7,6 +7,7 @@ namespace CSDL
     public partial class frmMain : Form
     {
         private ConnectSQL connectSQL;
+
         public frmMain()
         {
             InitializeComponent();

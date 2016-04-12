@@ -45,16 +45,22 @@ namespace DataGridView
 
         private void tsmiXoa_Click(object sender, EventArgs e)
         {
+            
             if (dgvDemo.SelectedCells.Count > 0)
             {
-                //Lấy thông tin đối tượng cần xóa
-                int selectedrowindex = dgvDemo.SelectedCells[0].RowIndex;
-                DataGridViewRow selectedRow = dgvDemo.Rows[selectedrowindex];
-                string mscb = Convert.ToString(selectedRow.Cells["colMSCB"].Value);
-                //Xóa
-                string sql = "DELETE FROM NHAN_VIEN WHERE MSCB = " + mscb;
-                this.connectSQL.executeSQL(sql);
-                this.load();
+                DialogResult dialogResult = MessageBox.Show("Có chắc xóa nhân viên này?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    //Lấy thông tin đối tượng cần xóa
+                    int selectedrowindex = dgvDemo.SelectedCells[0].RowIndex;
+                    DataGridViewRow selectedRow = dgvDemo.Rows[selectedrowindex];
+                    string mscb = Convert.ToString(selectedRow.Cells["colMSCB"].Value);
+                    //Xóa
+                    string sql = "DELETE FROM NHAN_VIEN WHERE MSCB = " + mscb;
+                    this.connectSQL.executeSQL(sql);
+                    this.load();
+                }
+                
             }
         }
 

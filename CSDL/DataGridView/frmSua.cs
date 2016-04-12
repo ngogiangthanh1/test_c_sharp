@@ -18,7 +18,6 @@ namespace DataGridView
         private void frmSua_Load(object sender, EventArgs e)
         {
             SqlDataReader reader = this.connectSQL.Query("SELECT * FROM CHUC_VU");
-
             DataTable dt = new DataTable();
             dt.Load(reader);
             clbChucVu.DataSource = dt;
@@ -52,12 +51,9 @@ namespace DataGridView
                 {
                     this.tbMSCB.ReadOnly = true;
                     this.tbTen.Text = reader.GetString(1);
-                    //
-                    
                     for (int count = 0; count < clbChucVu.Items.Count; count++)
                     {
                         DataRowView oDataRowView = clbChucVu.Items[count] as DataRowView;
-                        //MessageBox.Show(oDataRowView["CHUC_VU"]+ "  "+ reader.GetString(2), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         if (oDataRowView["CHUC_VU"].ToString().Equals(reader.GetString(2)))
                         {
                             clbChucVu.SetItemChecked(count, true);
@@ -89,13 +85,51 @@ namespace DataGridView
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            string mscb = this.tbMSCB.Text;
+            string ho_ten = this.tbTen.Text;
+            //Kiểm tra dữ liệu
+            if (mscb.Equals(""))
+            {
+                MessageBox.Show("Nhập mscb", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.ActiveControl = this.tbMSCB;
+            }
+            else if(ho_ten.Equals(""))
+            {
+                MessageBox.Show("Nhập tên", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.ActiveControl = this.tbTen;
+            }
+            else {
+                if (clbChucVu.CheckedItems.Count == 0)
+                {
+                    MessageBox.Show("Chọn ít nhất một chức vụ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    this.ActiveControl = this.clbChucVu;
+                    return;
+                }
 
+                //Dữ liệu phù hợp
+                //Xóa bảng có
+                string sql = "DELETE FROM dbo.CO WHERE dbo.CO.MSCB = '" + mscb+"'";
+                this.connectSQL.executeSQL(sql);
+
+                //Sửa bảng nhan_vien
+                sql = "UPDATE dbo.NHAN_VIEN SET dbo.NHAN_VIEN.TEN =N'"+ ho_ten+ "' WHERE dbo.NHAN_VIEN.MSCB='" + mscb + "'";
+                this.connectSQL.executeSQL(sql);
+                //Thêm bảng có
+                foreach (var item in clbChucVu.CheckedItems)
+                {
+                    var row = (item as DataRowView).Row;
+                    sql = "INSERT INTO CO VALUES('" + mscb + "','" + row["MSCV"] + "')";
+                    this.connectSQL.executeSQL(sql);
+                }
+                this.clearAll();
+                MessageBox.Show("Sửa thành công nhân viên!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.ActiveControl = this.tbMSCB;
+            }
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
             this.clearAll();
-            this.tbMSCB.ReadOnly = false;
         }
 
         private void clearAll()
@@ -104,6 +138,7 @@ namespace DataGridView
             this.tbTen.Clear();
             for (int i = 0; i < clbChucVu.Items.Count; i++)
                 clbChucVu.SetItemCheckState(i, CheckState.Unchecked);
+            this.tbMSCB.ReadOnly = false;
         }
     }
 }

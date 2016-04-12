@@ -37,13 +37,11 @@ namespace DataGridView
                     this.ActiveControl = this.clbChucVu;
                     return;
                 }
-
                 //Dữ liệu phù hợp
                 //Thêm bảng nhan_vien
-                string sql = "INSERT INTO NHAN_VIEN VALUES('"+mscb+"','"+ho_ten+"')";
+                string sql = "INSERT INTO NHAN_VIEN VALUES('"+mscb+ "',N'" + ho_ten+"')";
                 this.connectSQL.executeSQL(sql);
                 //Thêm bảng có
-
                 foreach (var item in clbChucVu.CheckedItems)
                 {
                     var row = (item as DataRowView).Row;
@@ -72,7 +70,6 @@ namespace DataGridView
         private void frmThem_Load(object sender, EventArgs e)
         {
             SqlDataReader reader = this.connectSQL.Query("SELECT * FROM CHUC_VU");
-
             DataTable dt = new DataTable();
             dt.Load(reader);
             clbChucVu.DataSource = dt;

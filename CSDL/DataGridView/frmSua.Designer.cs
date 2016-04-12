@@ -63,7 +63,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(197, 237);
+            this.btnXoa.Location = new System.Drawing.Point(236, 237);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(137, 43);
             this.btnXoa.TabIndex = 12;
@@ -73,7 +73,7 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(46, 237);
+            this.btnThem.Location = new System.Drawing.Point(85, 237);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(137, 43);
             this.btnThem.TabIndex = 11;
@@ -110,9 +110,9 @@
             // 
             // btnTim
             // 
-            this.btnTim.Location = new System.Drawing.Point(313, 15);
+            this.btnTim.Location = new System.Drawing.Point(313, 12);
             this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(113, 31);
+            this.btnTim.Size = new System.Drawing.Size(133, 39);
             this.btnTim.TabIndex = 16;
             this.btnTim.Text = "Tìm";
             this.btnTim.UseVisualStyleBackColor = true;
@@ -122,7 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 302);
+            this.ClientSize = new System.Drawing.Size(458, 304);
             this.Controls.Add(this.btnTim);
             this.Controls.Add(this.clbChucVu);
             this.Controls.Add(this.tbTen);
@@ -132,7 +132,10 @@
             this.Controls.Add(this.lbChucVu);
             this.Controls.Add(this.lbTen);
             this.Controls.Add(this.lbMSCB);
+            this.MaximumSize = new System.Drawing.Size(480, 360);
+            this.MinimumSize = new System.Drawing.Size(480, 360);
             this.Name = "frmSua";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sửa nhân viên";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmSua_FormClosing);
             this.Load += new System.EventHandler(this.frmSua_Load);
