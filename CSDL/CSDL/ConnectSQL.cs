@@ -14,10 +14,10 @@ namespace CSDL
         
         public ConnectSQL(string server,string database,string userid,string pass)
         {
-            this.dataSource = server;
-            this.catalog = database;
-            this.userID = userid;
-            this.password = pass;
+            this.dataSource = server;//192.168.137.102
+            this.catalog = database;//testing
+            this.userID = userid;//sa
+            this.password = pass;//admin123
             this.stringConnect = "Data Source="+this.dataSource+";Initial Catalog="+this.catalog+";Persist Security Info=True;User ID="+this.userID+";Password="+this.password;
             this.conn = new SqlConnection(this.stringConnect);
         }

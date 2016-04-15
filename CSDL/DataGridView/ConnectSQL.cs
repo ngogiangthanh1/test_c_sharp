@@ -43,7 +43,7 @@ namespace DataGridView
         {
             try{
             SqlCommand sqlcom = new SqlCommand(strsql, this.conn);
-            sqlcom.ExecuteNonQuery();
+            sqlcom.ExecuteNonQuery();//insert, Update, delete
             }
             catch(SqlException ex){
                  MessageBox.Show("Lỗi thực thi truy vấn: "+ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -53,7 +53,7 @@ namespace DataGridView
         {
             SqlDataReader dr;
             SqlCommand sqlcom = new SqlCommand(strsql, this.conn);
-            dr = sqlcom.ExecuteReader();
+            dr = sqlcom.ExecuteReader();//select
             
             return dr;
         }
