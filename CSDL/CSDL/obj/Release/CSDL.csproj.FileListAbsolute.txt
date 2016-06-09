@@ -1,0 +1,14 @@
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\bin\Release\CSDL.exe.config
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\bin\Release\CSDL.exe.manifest
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\bin\Release\CSDL.application
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\bin\Release\CSDL.exe
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\bin\Release\CSDL.pdb
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.csprojResolveAssemblyReference.cache
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.frmMain.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.Properties.Resources.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.csproj.GenerateResource.Cache
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.TrustInfo.xml
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.exe.manifest
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.application
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.exe
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\CSDL\obj\Release\CSDL.pdb

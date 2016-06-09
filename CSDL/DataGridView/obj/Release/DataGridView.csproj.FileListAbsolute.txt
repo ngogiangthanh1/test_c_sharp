@@ -1,0 +1,17 @@
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\bin\Release\DataGridView.exe.config
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\bin\Release\DataGridView.exe.manifest
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\bin\Release\DataGridView.application
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\bin\Release\DataGridView.exe
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\bin\Release\DataGridView.pdb
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.csprojResolveAssemblyReference.cache
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.frmExcel.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.frmMain.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.frmSua.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.frmThem.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.frmXoa.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.Properties.Resources.resources
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.csproj.GenerateResource.Cache
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.exe.manifest
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.application
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.exe
+C:\Users\thanh\Desktop\test_c_sharp\CSDL\DataGridView\obj\Release\DataGridView.pdb

@@ -32,7 +32,7 @@ namespace DataGridView
             }
             else if (Path.GetExtension(this.DataSource).Equals(".xlsx"))
             {
-                //Excel 2007,2010,2012,2013
+                //Excel 2007,2010, 2013
                 this.props["Provider"] = "Microsoft.ACE.OLEDB.12.0";
                 this.props["Extended Properties"] = "Excel 12.0 XML";
                 this.props["Data Source"] = this.DataSource;
